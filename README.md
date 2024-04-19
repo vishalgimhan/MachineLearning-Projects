@@ -25,3 +25,17 @@
 - **Underfitting and Overfitting**: Addressing model performance issues by adjusting the complexity of the Decision Tree model.
 
 - **Random Forest**: Introducing the Random Forest model as a means to improve predictions by averaging multiple decision trees.
+
+**3. Future Sales Prediction Model**
+
+- **Data Loading**: It involves importing libraries and loading a dataset from a CSV file into a pandas DataFrame.
+
+- **Data Preprocessing**: Checking for null values in the dataset to ensure data quality.
+
+- **Data Visualization**: Creating scatter plots to visualize relationships between sales and advertising costs using Plotly.
+
+- **Correlation Analysis**: Calculating the correlation between sales and advertising costs to determine the impact of TV, Radio, and Newspaper advertising.
+
+- **Model Training**: Splitting the data into training and test sets, and training a Linear Regression model to predict future sales.
+
+- **Prediction Function**: Implementing a function to predict sales based on user input for TV, Radio, and Newspaper advertising costs.
