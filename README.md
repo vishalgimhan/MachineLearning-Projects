@@ -28,3 +28,15 @@
 
 - **Prediction Function**: Implementing a function to predict sales based on user input for TV, Radio, and Newspaper advertising costs.
 
+**3. Crypto Currency Price Prediction Model**
+
+- **Data Import**: The notebook begins by installing yfinance and importing necessary libraries like pandas, yfinance, and datetime. It then fetches historical data for Bitcoin (BTC-USD) from a specified start date to the present day.
+
+- **Data Preparation**: The retrieved data is organized with columns for Date, Open, High, Low, Close, Adjusted Close, and Volume. The data is also reset to ensure the index starts from 0.
+
+- **Visualization**: A candlestick chart is created using plotly.graph_objects to visualize Bitcoin price changes over time, providing an interactive analysis tool.
+
+- **Correlation Analysis**: The correlation between different data columns is calculated, showing a high correlation between Close, Adjusted Close, High, and Low prices.
+
+- **Price Prediction**: The AutoTS library is used to predict future Bitcoin prices based on the historical time series data. The model explores various algorithms and configurations to forecast the next 30 days of prices.
+
