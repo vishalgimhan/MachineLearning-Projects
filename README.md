@@ -40,3 +40,14 @@
 
 - **Price Prediction**: The AutoTS library is used to predict future Bitcoin prices based on the historical time series data. The model explores various algorithms and configurations to forecast the next 30 days of prices.
 
+**4. Instagram Reach Analysis and Prediction Model**
+
+- **Data Processing**: The notebook begins with importing necessary libraries and loading the Instagram dataset. It checks for null values and provides data type information.
+
+- **Data Analysis**: Various plots are created to analyze the distribution of Instagram impressions from different sources like Home, Hashtags, and Explore. A pie chart visualizes the proportion of impressions from these sources.
+Word clouds are generated to visualize the most common words in captions and hashtags used in the posts.
+
+- **Correlation Analysis**: The notebook examines the relationship between different factors like Likes, Comments, Shares, and Impressions to identify which factors correlate strongly with reach.
+
+- **Prediction Model**: A PassiveAggressiveRegressor model is trained to predict Instagram post impressions based on features like Likes, Saves, Comments, Shares, Profile Visits, and Follows. The model’s accuracy is evaluated, and predictions are made using test features.
+
