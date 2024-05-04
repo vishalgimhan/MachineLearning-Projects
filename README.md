@@ -51,3 +51,12 @@ Word clouds are generated to visualize the most common words in captions and has
 
 - **Prediction Model**: A PassiveAggressiveRegressor model is trained to predict Instagram post impressions based on features like Likes, Saves, Comments, Shares, Profile Visits, and Follows. The model’s accuracy is evaluated, and predictions are made using test features.
 
+**5. Gold Price Prediction Model**
+
+- **Importing Libraries**: The notebook begins by importing necessary Python libraries for data handling and visualization, such as yfinance, pandas, numpy, and matplotlib.
+
+- **Data Acquisition**: It uses yfinance to download historical gold price data from 2001 to 2024, and prepares the dataset by calculating returns and lagged returns.
+  
+- **Model Training**: A Linear Regression model is trained using the ‘Lagged_Return’ as the independent variable and ‘Return’ as the dependent variable, based on data from 2001 to 2021.
+
+- **Prediction & Visualization**: The model makes predictions on the test set (2022-2024), and the results are visualized in a plot showing actual vs predicted gold prices. The notebook concludes with a graph displaying the performance of the model.
