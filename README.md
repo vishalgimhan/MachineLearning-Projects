@@ -60,3 +60,14 @@ Word clouds are generated to visualize the most common words in captions and has
 - **Model Training**: A Linear Regression model is trained using the ‘Lagged_Return’ as the independent variable and ‘Return’ as the dependent variable, based on data from 2001 to 2021.
 
 - **Prediction & Visualization**: The model makes predictions on the test set (2022-2024), and the results are visualized in a plot showing actual vs predicted gold prices. The notebook concludes with a graph displaying the performance of the model.
+
+
+**6. Spam Email Detection using NLP**
+
+- **Data Preparation**: The project begins by importing necessary libraries, loading the dataset from a CSV file, and performing initial data exploration. It involves checking for duplicates and missing data, resulting in a cleaned dataset of 5695 email entries.
+
+- **Text Processing**: The next step involves downloading stopwords from NLTK and creating a function to remove stopwords and punctuation from the text. This function is applied to the ‘text’ column to clean the data.
+
+- **Feature Extraction**: The cleaned text is then converted into a matrix of token counts using CountVectorizer, which results in a feature set with 37229 tokens.
+
+- **Model Training and Evaluation**: A Naive Bayes Classifier is trained on the feature set and evaluated using metrics like precision, recall, and f1-score. The model shows high accuracy on both training (99.71%) and testing data (99.21%).
