@@ -72,7 +72,7 @@ Word clouds are generated to visualize the most common words in captions and has
 
 - **Model Training and Evaluation**: A Naive Bayes Classifier is trained on the feature set and evaluated using metrics like precision, recall, and f1-score. The model shows high accuracy on both training (99.71%) and testing data (99.21%).
 
-- **7. Resume Screaning Classification Model**
+**7. Resume Screaning Classification Model**
 
 - **Data Preparation**: The dataset contains resumes categorized into 25 distinct job roles. The data is cleaned by removing URLs, hashtags, mentions, punctuations, and extra whitespace.
   
