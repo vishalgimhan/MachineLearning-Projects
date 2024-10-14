@@ -62,7 +62,7 @@ Word clouds are generated to visualize the most common words in captions and has
 - **Prediction & Visualization**: The model makes predictions on the test set (2022-2024), and the results are visualized in a plot showing actual vs predicted gold prices. The notebook concludes with a graph displaying the performance of the model.
 
 
-**6. Spam Email Detection using NLP**
+**6. Spam Email Detection Classification Model**
 
 - **Data Preparation**: The project begins by importing necessary libraries, loading the dataset from a CSV file, and performing initial data exploration. It involves checking for duplicates and missing data, resulting in a cleaned dataset of 5695 email entries.
 
@@ -71,3 +71,13 @@ Word clouds are generated to visualize the most common words in captions and has
 - **Feature Extraction**: The cleaned text is then converted into a matrix of token counts using CountVectorizer, which results in a feature set with 37229 tokens.
 
 - **Model Training and Evaluation**: A Naive Bayes Classifier is trained on the feature set and evaluated using metrics like precision, recall, and f1-score. The model shows high accuracy on both training (99.71%) and testing data (99.21%).
+
+- **7. Resume Screaning Classification Model**
+
+- **Data Preparation**: The dataset contains resumes categorized into 25 distinct job roles. The data is cleaned by removing URLs, hashtags, mentions, punctuations, and extra whitespace.
+  
+- **Visualization**: The distribution of resume categories is visualized using count plots and pie charts to understand the dataset better.
+  
+- **Text Processing**: Resumes are cleaned and tokenized, and stopwords are removed. A word cloud is generated to visualize the most common words.
+  
+- **Model Training**: A KNeighbors Classifier is trained using TF-IDF features. The model achieves an accuracy of 99% on both the training and test sets.
