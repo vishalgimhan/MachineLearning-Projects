@@ -81,3 +81,13 @@ Word clouds are generated to visualize the most common words in captions and has
 - **Text Processing**: Resumes are cleaned and tokenized, and stopwords are removed. A word cloud is generated to visualize the most common words.
   
 - **Model Training**: A KNeighbors Classifier is trained using TF-IDF features. The model achieves an accuracy of 99% on both the training and test sets.
+
+**8. SMS Spam Detection Classification Model**
+
+- **Dataset Preparation**: The dataset is loaded and cleaned by removing unnecessary columns and renaming others. The labels are encoded for further processing.
+  
+- **Feature Extraction**: Text data is preprocessed using techniques like lowercasing, removing punctuation, and tokenization. The Bag of Words approach is implemented to convert text into numerical features.
+
+- **Model Training**: The dataset is split into training and testing sets. A Multinomial Naive Bayes model is trained on the training data.
+
+- **Model Evaluation**: The model’s performance is evaluated using metrics like accuracy, precision, recall, and F1 score, achieving high accuracy and precision.
