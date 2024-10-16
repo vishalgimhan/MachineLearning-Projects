@@ -91,3 +91,13 @@ Word clouds are generated to visualize the most common words in captions and has
 - **Model Training**: The dataset is split into training and testing sets. A Multinomial Naive Bayes model is trained on the training data.
 
 - **Model Evaluation**: The model’s performance is evaluated using metrics like accuracy, precision, recall, and F1 score, achieving high accuracy and precision.
+
+**9. Hate Speech Detection Model**
+
+- **Data Preparation**: The code imports necessary libraries and reads training and test datasets for hate speech detection.
+
+- **Text Cleaning**: It preprocesses text data by converting to lowercase and removing unwanted characters like mentions, URLs, and non-alphanumeric characters.
+
+- **Handling Imbalance**: The training data is balanced by upsampling the minority class to match the majority class.
+
+- **Model Training**: A pipeline using CountVectorizer, TfidfTransformer, and SGDClassifier is created and trained on the processed data, achieving an F1 score of 0.969.
