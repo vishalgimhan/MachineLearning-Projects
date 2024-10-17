@@ -101,3 +101,13 @@ Word clouds are generated to visualize the most common words in captions and has
 - **Handling Imbalance**: The training data is balanced by upsampling the minority class to match the majority class.
 
 - **Model Training**: A pipeline using CountVectorizer, TfidfTransformer, and SGDClassifier is created and trained on the processed data, achieving an F1 score of 0.969.
+
+**10. Mobile Price Classification Model**
+
+- **Data Loading and Exploration**: The dataset is loaded and explored, showing various features like battery power, clock speed, RAM, etc., and their correlation.
+
+- **Data Preparation**: The data is standardized and split into training and testing sets.
+
+- **Model Training**: A Logistic Regression model is trained on the data.
+
+- **Model Evaluation**: The model achieves an accuracy of 95.5% in predicting mobile price ranges.
