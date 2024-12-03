@@ -111,3 +111,15 @@ Word clouds are generated to visualize the most common words in captions and has
 - **Model Training**: A Logistic Regression model is trained on the data.
 
 - **Model Evaluation**: The model achieves an accuracy of 95.5% in predicting mobile price ranges.
+
+**11. Customer Churn - Classification Model**
+
+- **Preprocessing**: Missing values were imputed using different methods, including mean, mode, and KNN imputation. Scalling using Standard Scaler
+
+- **Feature Engineering**: Most importance features were selected with the Random Forest's built in feature. New features were created to enhance the predictive power of the model.
+
+- **Encoding Categorical Variables**: Categorical variables were encoded using techniques like one-hot encoding to convert them into numerical format.
+
+- **Model Selection**: Various machine learning algorithms were used, including Logistic Regression, Decision Trees, and Random Forest.
+
+- **Model Performance**: The models were evaluated using metrics such as accuracy, precision, recall, and F1-score. The Decision Tree and Random Forest models showed better performance compared to Logistic Regression.
